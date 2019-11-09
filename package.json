@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/zoltanradics/sails-hook-sentry-node",
   "sails": {
-    "isHook": true
+    "isHook": true,
+    "hookName": "sentry"
   },
   "dependencies": {
     "@sentry/node": "^5.7.1"
