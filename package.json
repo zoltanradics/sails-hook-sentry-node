@@ -1,0 +1,37 @@
+{
+  "name": "sails-hook-sentry-node",
+  "version": "1.0.0",
+  "description": "Sails hook for Sentry (sentry-node)",
+  "main": "index.js",
+  "keywords": [
+    "sentry",
+    "node",
+    "errors",
+    "debugging",
+    "exceptions",
+    "sails",
+    "hook"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoltanradics/sails-hook-sentry-node.git"
+  },
+  "author": "Zoltan Radics <zoltan.radics@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoltanradics/sails-hook-sentry-node/issues"
+  },
+  "homepage": "https://github.com/zoltanradics/sails-hook-sentry-node",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "@sentry/node": "^5.7.1"
+  },
+  "devDependencies": {
+    "sails": "^1.2.3"
+  }
+}
